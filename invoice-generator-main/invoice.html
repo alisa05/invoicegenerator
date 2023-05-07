@@ -1,0 +1,72 @@
+<div class="page-container">Page of</div>
+<div class="logo-container"><img style="height: 18px;" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Mark-E_logo.svg" /></div>
+<table class="invoice-info-container">
+<tbody>
+<tr>
+<td class="client-name" rowspan="2"> Client Name: {{client_name}}</td>
+<td>Mark E</td>
+</tr>
+<tr>
+<td>Platz der Impulse 1</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>Invoice Date: <strong>{{today_date}}</strong></td>
+<td>58093 Hagen</td>
+</tr>
+<tr>
+<td>Invoice No: <strong>{{invoice_number}}</strong></td>
+<td>hello@marke.com</td>
+</tr>
+</tbody>
+</table>
+<table class="line-items-container">
+<thead>
+<tr>
+<th class="heading-quantity">&nbsp;</th>
+<th class="heading-description">Description</th>
+<th class="heading-price">&nbsp;</th>
+<th class="heading-subtotal">Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>{{item1}}</td>
+<td class="right">&nbsp;</td>
+<td class="bold">{{subtotal1}}</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>{{item2}}</td>
+<td class="right">&nbsp;</td>
+<td class="bold">{{subtotal2}}</td>
+</tr>
+</tbody>
+</table>
+<table class="line-items-container has-bottom-border">
+<thead>
+<tr>
+<th>Payment Info</th>
+<th>Due By</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="payment-info">
+<div>Account No: <strong>123456789</strong></div>
+<div>Payment for: <strong>{{item4}}</strong></div>
+
+
+</td>
+<td class="large">{{month}}</td>
+<td class="large total">{{total}}</td>
+</tr>
+</tbody>
+</table>
+<div class="footer">
+<div class="footer-info">hello@marke.com | 555 444 6666 | marke.com</div>
+<div class="footer-thanks"><img src="https://github.com/anvilco/html-pdf-invoice-template/raw/main/img/heart.png" alt="heart" />Thank you!</div>
+</div>
